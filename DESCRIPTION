@@ -1,0 +1,26 @@
+Package: practice
+Type: Package
+Title: Download PanTHERIA and WWF WildFinder databases
+Version: 0.0.0.9000
+Authors@R: c(
+    person(given   = "Leo",
+           family  = "Streith",
+           role    = c("aut", "cre", "cph"),
+           email   = "leo.streith@gmail.com",
+           comment = c(ORCID = "{{orcid}}")))
+Description: This project aims to download PanTHERIA and WWF WildFinder 
+    databases. It is structured as a research compendium to be reproducible.
+    This is the result of the Practice 1 of the training course Reproducible 
+    Research in Computational Ecology available at:
+    <https://rdatatoolbox.github.io/chapters/ex-compendium.html>.
+URL: https://github.com/lsetoreith/practice
+BugReports: https://github.com/lsetoreith/practice/issues
+License: GPL-2
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    here,
+    utils
+Depends: 
+    ggplot2
