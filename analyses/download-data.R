@@ -18,3 +18,6 @@ wildfinder_path <- dl_wildfinder_data(filename="wildfinder-ecoregions_species.cs
 wildfinder_path <- dl_wildfinder_data(filename="wildfinder-mammals_list.csv")
 
 
+#Modify a little bit the script
+#print time
+Sys.time()
