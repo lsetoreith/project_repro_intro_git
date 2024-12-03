@@ -9,7 +9,7 @@
 # Jane Doe <jane.doe@mail.me>
 
 ## Download PanTHERIA database ----
-pantheria_path  <- dl_pantheria_data()
+pantheria_path  <- dl_pantheria_data("my controle is absolute")
 
 
 ## Download WWF WildFinder database ----
