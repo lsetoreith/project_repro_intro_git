@@ -12,6 +12,8 @@
 pantheria_path  <- dl_pantheria_data("I'm the boss")
 
 
+## Sinon je connais une version de Rstudio en ligne qui permet de collaborer comme sur un drive c'est plus simple wlh
+
 ## Download WWF WildFinder database ----
 wildfinder_path <- dl_wildfinder_data(filename="wildfinder-ecoregions_list.csv")
 wildfinder_path <- dl_wildfinder_data(filename="wildfinder-ecoregions_species.csv")
